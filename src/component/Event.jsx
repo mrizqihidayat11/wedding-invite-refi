@@ -110,7 +110,7 @@ useEffect(() => {
             className="w-36 h-36 md:w-40 md:h-40 rounded-full object-cover border-4 border-orange-500 shadow-md mx-auto"
           />
           <h2 className="text-xl md:text-2xl font-semibold mt-4">
-            Bening Sukmaningrum
+            Refi Nur Ghozi
           </h2>
           <p className="text-gray-700 mt-2 text-sm md:text-base"></p>
         </motion.div>
@@ -128,7 +128,7 @@ useEffect(() => {
             className="w-36 h-36 md:w-40 md:h-40 rounded-full object-cover border-4 border-orange-500 shadow-md mx-auto"
           />
           <h2 className="text-xl md:text-2xl font-semibold mt-4">
-            Refi Nur Ghozi
+            Bening Sukmaningrum
           </h2>
           <p className="text-gray-700 mt-2 text-sm md:text-base"></p>
         </motion.div>
