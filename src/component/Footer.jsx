@@ -30,7 +30,7 @@ const Footer = () => {
         <p className="text-sm text-gray-300 mt-1">June 06, 2026</p>
         <div className="flex justify-center space-x-6 mt-4">
           <motion.a
-            href="https://www.instagram.com/anisaaa17"
+            href="https://www.instagram.com/sukma_bening"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.2, rotate: 10 }}
@@ -50,7 +50,7 @@ const Footer = () => {
             <FaWhatsapp className="text-xl" />
           </motion.a>
           <motion.a
-            href="https://www.instagram.com/rizqihidayat_"
+            href="https://www.instagram.com/refing"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.2, rotate: 10 }}
