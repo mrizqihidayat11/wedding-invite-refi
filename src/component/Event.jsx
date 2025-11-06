@@ -141,13 +141,13 @@ useEffect(() => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        <h3 className="text-xl font-semibold text-gray-800">Ceremony</h3>
+        <h3 className="text-xl font-semibold text-gray-800">Akad</h3>
         <p className="text-gray-700">Thursday, 6 June 2026</p>
-        <p className="text-gray-700">10:00 AM at The Grand Hall</p>
+        <p className="text-gray-700">07:00 AM at The Grand Hall</p>
 
         <h3 className="text-xl font-semibold text-gray-800 mt-6">Reception</h3>
         <p className="text-gray-700">Thursday, 6 June 2026</p>
-        <p className="text-gray-700">7:00 PM at The Grand Hall</p>
+        <p className="text-gray-700">12:00 PM at The Grand Hall</p>
       </motion.div>
 
       {/* Live Streaming Button */}

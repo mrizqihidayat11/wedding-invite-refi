@@ -27,7 +27,7 @@ const Footer = () => {
         <h3 className="text-lg font-bold text-orange-400 mt-2">
           Refi & Sukma
         </h3>
-        <p className="text-sm text-gray-300 mt-1">August 28, 2027</p>
+        <p className="text-sm text-gray-300 mt-1">June 06, 2026</p>
         <div className="flex justify-center space-x-6 mt-4">
           <motion.a
             href="https://www.instagram.com/anisaaa17"
