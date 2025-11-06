@@ -82,7 +82,7 @@ const Galerry = () => {
         >
           <div className="relative w-full" style={{ paddingBottom: "56.25%" }}>
             <iframe
-              src="https://www.youtube.com/embed/l4wcXGRIkuQ?rel=0"
+              src="https://www.youtube.com/embed/jP6eEKrghGI?si=u6iOTPsttEIUeDjn"
               title="YouTube video"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
