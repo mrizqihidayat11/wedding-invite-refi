@@ -25,7 +25,7 @@ const Footer = () => {
           the greatest gift.
         </p>
         <h3 className="text-lg font-bold text-orange-400 mt-2">
-          Rizqi Hidayat & Anisa Ratna
+          Refi & Sukma
         </h3>
         <p className="text-sm text-gray-300 mt-1">August 28, 2027</p>
         <div className="flex justify-center space-x-6 mt-4">

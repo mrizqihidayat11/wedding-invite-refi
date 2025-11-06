@@ -14,30 +14,30 @@ const Hero = () => {
   });
 
   useEffect(() => {
-    const weddingDate = new Date("2027-08-01T10:00:00").getTime();
+  const weddingDate = new Date("2026-06-06T10:00:00").getTime();
 
-    const timer = setInterval(() => {
-      const now = new Date().getTime();
-      const difference = weddingDate - now;
+  const timer = setInterval(() => {
+    const now = new Date().getTime();
+    const difference = weddingDate - now;
 
-      if (difference > 0) {
-        const days = Math.floor(difference / (1000 * 60 * 60 * 24));
-        const hours = Math.floor(
-          (difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
-        );
-        const minutes = Math.floor(
-          (difference % (1000 * 60 * 60)) / (1000 * 60)
-        );
-        const seconds = Math.floor((difference % (1000 * 60)) / 1000);
+    if (difference > 0) {
+      const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+      const hours = Math.floor(
+        (difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+      );
+      const minutes = Math.floor(
+        (difference % (1000 * 60 * 60)) / (1000 * 60)
+      );
+      const seconds = Math.floor((difference % (1000 * 60)) / 1000);
 
-        setTimeLeft({ days, hours, minutes, seconds });
-      } else {
-        clearInterval(timer);
-      }
-    }, 1000);
+      setTimeLeft({ days, hours, minutes, seconds });
+    } else {
+      clearInterval(timer);
+    }
+  }, 1000);
 
-    return () => clearInterval(timer);
-  }, []);
+  return () => clearInterval(timer);
+}, []);
 
   const containerVariants = {
     hidden: { opacity: 0, y: 50 },
@@ -92,7 +92,7 @@ const Hero = () => {
             className="text-xl font-extrabold text-white"
             variants={itemVariants}
           >
-            M Rizqi Hidayat & Anisa Ratna N
+            Refi Nur Ghozi & Bening Sukmaningrum
           </motion.h2>
 
           <motion.div
@@ -125,7 +125,7 @@ const Hero = () => {
             <p className="text-white text-sm">Dear Sir / Madam</p>
             <input
               type="text"
-              placeholder="Alumni HMIF UNEJ"
+              placeholder="MIS (PT BISI INTERNAIONAL, Tbk)"
               className="mt-2 w-full p-2 rounded-md text-black text-center"
             />
           </motion.div>

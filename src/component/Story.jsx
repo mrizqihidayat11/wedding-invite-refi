@@ -4,27 +4,28 @@ import { motion } from "framer-motion";
 
 const Story = () => {
   const stories = [
-    {
-      date: "28 August 2021",
-      title: "Our First Meet",
-      description:
-        "Fate brought us together at University, where we unknowingly began a journey that would define the rest of our lives. Amid the halls of academia and the pursuit of dreams, we discovered a bond unlike any other. What began as a simple encounter grew into a connection filled with mutual understanding and admiration. It was there, in the heart of shared aspirations, that our story truly began.",
-      image: "/images/konten/6.jpg",
-    },
-    {
-      date: "12 July 2023",
-      title: "Memorable Moment",
-      description:
-        "Our journey has been a series of remarkable milestones, each one strengthening the foundation of our bond. From supporting each other through academic challenges to celebrating every achievement together, we’ve faced life’s highs and lows hand in hand. It is in these moments of unwavering support, perseverance, and shared joy that our love story continues to flourish. Each step we take together becomes a testament to our commitment and unity as we grow side by side.",
-      image: "/images/konten/21.jpg",
-    },
-    {
-      date: "28 August 2026",
-      title: "Engagement",
-      description:
-        "On a beautiful day, surrounded by the warmth of our loved ones, we sealed our commitment to a lifetime together. The engagement marked not just the promise of marriage but the promise of always supporting, loving, and growing together. It was a moment filled with hope and excitement as we took a step closer to building the future we’ve always dreamed of.",
-      image: "/images/konten/31.jpg",
-    },
+   {
+  date: "28 August 2023",
+  title: "Where It All Began",
+  description:
+    "Our story began at PT Bisi International, where destiny placed us in the same department. It started with ordinary greetings, small work conversations, and shared laughter in the midst of daily responsibilities. Yet, in those simple exchanges, we found comfort, warmth, and familiarity that gradually grew into something deeper. Among targets, reports, and deadlines, we found not just teamwork — we found each other.",
+  image: "/images/konten/refi2.png",
+},
+{
+  date: "12 July 2024",
+  title: "A Moment to Remember",
+  description:
+    "Day by day, we came to understand one another — not through grand gestures, but through sincerity and presence. From helping each other through challenges to celebrating little victories, we learned to care, to support, and to stay. Our bond didn’t bloom overnight; it was nurtured by patience, kindness, and shared resilience. Love grew quietly, gracefully, and beautifully, becoming the foundation of our journey together.",
+  image: "/images/konten/refi2.png",
+},
+{
+  date: "06 June 2026",
+  title: "The Engagement",
+  description:
+    "Surrounded by our beloved families, we sealed our promise to build a future together. This engagement is not only a step toward marriage — it is a commitment to continue growing side by side, hand in hand, in every season of life. What once began as colleagues in the same department at PT Bisi International has now become a lifelong partnership. With gratitude and hope, we look forward to writing the next chapters of our story as one.",
+  image: "/images/konten/refi2.png",
+},
+
   ];
 
   return (

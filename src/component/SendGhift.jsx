@@ -57,7 +57,7 @@ const GiftSection = () => {
             <p className="text-center text-xs text-gray-100">
               <strong>7790528811</strong>
               <br />
-              A/N Muhammad Rizqi Hidayat
+              A/N Refi Nur Ghozi
             </p>
             <button
               onClick={() => copyToClipboard("7790528811")}
@@ -79,7 +79,7 @@ const GiftSection = () => {
             <p className="text-center text-xs text-gray-100">
               <strong>643901017910534</strong>
               <br />
-              A/N Muhammad Rizqi Hidayat
+              A/N Refi Nur Ghozi
             </p>
             <button
               onClick={() => copyToClipboard("643901017910534")}
@@ -104,7 +104,7 @@ const GiftSection = () => {
             <p className="text-center text-xs text-gray-100">
               <strong>707741757800</strong>
               <br />
-              A/N Muhammad Rizqi Hidayat
+              A/N Refi Nur Ghozi
             </p>
             <button
               onClick={() => copyToClipboard("707741757800")}
@@ -130,7 +130,7 @@ const GiftSection = () => {
             <p className="text-center text-xs text-gray-100">
               <strong>0146048641</strong>
               <br />
-              A/N Anisa Ratna Ningrum
+              A/N Refi Nur Ghozi
             </p>
             <button
               onClick={() => copyToClipboard("0146048641")}
@@ -156,7 +156,7 @@ const GiftSection = () => {
             <p className="text-center text-xs text-gray-100">
               <strong>085748821216</strong>
               <br />
-              A/N Anisa Ratna Ningrum
+              A/N Refi Nur Ghozi
             </p>
             <button
               onClick={() => copyToClipboard("085748821216")}
@@ -178,7 +178,7 @@ const GiftSection = () => {
             <p className="text-center text-xs text-gray-100">
               <strong>085748821216</strong>
               <br />
-              A/N Anisa Ratna Ningrum
+              A/N Refi Nur Ghozi
             </p>
             <button
               onClick={() => copyToClipboard("085748821216")}

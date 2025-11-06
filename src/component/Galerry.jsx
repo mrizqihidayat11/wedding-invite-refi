@@ -8,21 +8,21 @@ import { motion } from "framer-motion";
 
 const Galerry = () => {
   const images = [
-    { src: "/images/konten/53.jpeg", orientation: "landscape" },
-    { src: "/images/konten/21.jpg", orientation: "landscape" },
-    { src: "/images/konten/52.jpeg", orientation: "landscape" },
+    { src: "/images/konten/refi2.png", orientation: "landscape" },
+    { src: "/images/konten/refi2.png", orientation: "landscape" },
+    { src: "/images/konten/refi2.png", orientation: "landscape" },
 
-    { src: "/images/konten/22.jpg", orientation: "landscape" },
-    { src: "/images/konten/51.jpeg", orientation: "landscape" },
-    { src: "/images/konten/20.jpg", orientation: "landscape" },
+    { src: "/images/konten/refi2.png", orientation: "landscape" },
+    { src: "/images/konten/refi2.png", orientation: "landscape" },
+    { src: "/images/konten/refi2.png", orientation: "landscape" },
 
-    { src: "/images/konten/15.jpg", orientation: "landscape" },
-    { src: "/images/konten/27.jpg", orientation: "landscape" },
-    { src: "/images/konten/16.jpg", orientation: "landscape" },
+    { src: "/images/konten/refi2.png", orientation: "landscape" },
+    { src: "/images/konten/refi2.png", orientation: "landscape" },
+    { src: "/images/konten/refi2.png", orientation: "landscape" },
 
-    { src: "/images/konten/35.jpg", orientation: "landscape" },
-    { src: "/images/konten/14.jpg", orientation: "landscape" },
-    { src: "/images/konten/36.jpg", orientation: "landscape" },
+    { src: "/images/konten/refi2.png", orientation: "landscape" },
+    { src: "/images/konten/refi2.png", orientation: "landscape" },
+    { src: "/images/konten/refi2.png", orientation: "landscape" },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -175,23 +175,6 @@ const Galerry = () => {
             Relive the beautiful moments of our journey through our cherished
             photo memories. Every picture holds a story!
           </p>
-        </motion.div>
-
-        <motion.div
-          className="flex justify-center mt-10"
-          initial={{ y: 20, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.8 }}
-        >
-          <Link to="/detail-memories">
-            <motion.button
-              className="relative px-6 py-3 text-white rounded-full font-semibold shadow-md hover:opacity-90 transition flex items-center justify-center gap-2 bg-orange-500"
-              whileHover={{ scale: 1.1 }}
-            >
-              <FiCamera className="w-5 h-5" />
-              View Moments
-            </motion.button>
-          </Link>
         </motion.div>
       </div>
     </motion.div>

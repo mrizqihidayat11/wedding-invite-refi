@@ -4,37 +4,38 @@ import { motion } from "framer-motion";
 import { FiPlayCircle } from "react-icons/fi";
 
 const WeddingInvitation = () => {
-  const targetDate = new Date("2027-08-01T10:00:00").getTime();
+  const targetDate = new Date("2026-06-06T10:00:00").getTime();
 
-  const [timeLeft, setTimeLeft] = useState({
-    days: 0,
-    hours: 0,
-    minutes: 0,
-    seconds: 0,
-  });
+const [timeLeft, setTimeLeft] = useState({
+  days: 0,
+  hours: 0,
+  minutes: 0,
+  seconds: 0,
+});
 
-  useEffect(() => {
-    window.scrollTo(0, 0);
-    const interval = setInterval(() => {
-      const now = new Date().getTime();
-      const distance = targetDate - now;
+useEffect(() => {
+  window.scrollTo(0, 0);
+  const interval = setInterval(() => {
+    const now = new Date().getTime();
+    const distance = targetDate - now;
 
-      if (distance > 0) {
-        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        const hours = Math.floor(
-          (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
-        );
-        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    if (distance > 0) {
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const hours = Math.floor(
+        (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+      );
+      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-        setTimeLeft({ days, hours, minutes, seconds });
-      } else {
-        clearInterval(interval);
-      }
-    }, 1000);
+      setTimeLeft({ days, hours, minutes, seconds });
+    } else {
+      clearInterval(interval);
+    }
+  }, 1000);
 
-    return () => clearInterval(interval);
-  }, [targetDate]);
+  return () => clearInterval(interval);
+}, [targetDate]);
+
 
   return (
     <div
@@ -49,7 +50,7 @@ const WeddingInvitation = () => {
         className="text-center pt-20"
       >
         <h1 className="text-xl font-extrabold text-orange-500 tracking-wide">
-          M Rizqi Hidayat & Anisa Ratna N
+          Refi Nur Ghozi & Bening Sukmaningrum
         </h1>
         <p className="text-gray-700 mt-2 italic text-lg">
           Together with their families, invite you to celebrate their love.
@@ -104,16 +105,14 @@ const WeddingInvitation = () => {
           transition={{ duration: 1, delay: 0.2 }}
         >
           <img
-            src="/images/konten/anisa.jpeg"
+            src="/images/konten/refi.png"
             alt="Bride"
             className="w-36 h-36 md:w-40 md:h-40 rounded-full object-cover border-4 border-orange-500 shadow-md mx-auto"
           />
           <h2 className="text-xl md:text-2xl font-semibold mt-4">
-            dr. Anisa Ratna Ningrum
+            Bening Sukmaningrum
           </h2>
-          <p className="text-gray-700 mt-2 text-sm md:text-base">
-            Daughter of Mr. Drs. Miftahul Huda and Mrs. Farida, S.Pd.
-          </p>
+          <p className="text-gray-700 mt-2 text-sm md:text-base"></p>
         </motion.div>
 
         {/* Groom (Rizqi) */}
@@ -124,16 +123,14 @@ const WeddingInvitation = () => {
           transition={{ duration: 1, delay: 0.2 }}
         >
           <img
-            src="/images/konten/riz.jpeg"
+            src="/images/konten/refi.png"
             alt="Groom"
             className="w-36 h-36 md:w-40 md:h-40 rounded-full object-cover border-4 border-orange-500 shadow-md mx-auto"
           />
           <h2 className="text-xl md:text-2xl font-semibold mt-4">
-            Muhammad Rizqi Hidayat, S.Kom
+            Refi Nur Ghozi
           </h2>
-          <p className="text-gray-700 mt-2 text-sm md:text-base">
-            Son of Mr. Kamari, S.Pd. and Mrs. Sulastri, S.Pd.
-          </p>
+          <p className="text-gray-700 mt-2 text-sm md:text-base"></p>
         </motion.div>
       </motion.div>
 
@@ -145,11 +142,11 @@ const WeddingInvitation = () => {
         transition={{ duration: 1 }}
       >
         <h3 className="text-xl font-semibold text-gray-800">Ceremony</h3>
-        <p className="text-gray-700">Thursday, 28 August 2027</p>
+        <p className="text-gray-700">Thursday, 6 June 2026</p>
         <p className="text-gray-700">10:00 AM at The Grand Hall</p>
 
         <h3 className="text-xl font-semibold text-gray-800 mt-6">Reception</h3>
-        <p className="text-gray-700">Thursday, 28 August 2027</p>
+        <p className="text-gray-700">Thursday, 6 June 2026</p>
         <p className="text-gray-700">7:00 PM at The Grand Hall</p>
       </motion.div>
 

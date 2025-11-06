@@ -6,7 +6,6 @@ import App from "./App";
 import OurJourney from "./pages/OurJourney";
 import MemoriesPages from "./pages/MemoriesPages";
 import RsvpPages from "./pages/RsvpPages";
-import MemoriesDetails from "./pages/MemoriesDetails";
 
 const router = createBrowserRouter([
   {
@@ -20,10 +19,6 @@ const router = createBrowserRouter([
   {
     path: "/memories",
     element: <MemoriesPages />,
-  },
-  {
-    path: "/detail-memories",
-    element: <MemoriesDetails />,
   },
   {
     path: "/rsvp-wishes",
